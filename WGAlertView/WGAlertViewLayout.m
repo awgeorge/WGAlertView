@@ -211,7 +211,8 @@
 
 -(void)layoutDimView:(UIView *)dimView
 {
-   //Not needed, here just to show we can override :)
+    //Not needed, here just to show we can override :)
+    [dimView setBackgroundColor:[UIColor colorWithWhite:0.0 alpha:.4]];
 }
 
 -(void)initialLayoutForAppearingView:(WGAlertView *)alertView
