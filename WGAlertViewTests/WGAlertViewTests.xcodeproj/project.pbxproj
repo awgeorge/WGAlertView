@@ -25,6 +25,7 @@
 		BB20A97019242BD9002EB56D /* WGAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB20A96C19242BD9002EB56D /* WGAlertView.m */; };
 		BB20A97119242BD9002EB56D /* WGAlertViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BB20A96E19242BD9002EB56D /* WGAlertViewLayout.m */; };
 		BB20A97419242CC8002EB56D /* BSAlertViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BB20A97319242CC8002EB56D /* BSAlertViewLayout.m */; };
+		BB20A978192430CC002EB56D /* ASAlertViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BB20A977192430CC002EB56D /* ASAlertViewLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		BB20A96E19242BD9002EB56D /* WGAlertViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WGAlertViewLayout.m; path = ../../WGAlertView/WGAlertViewLayout.m; sourceTree = "<group>"; };
 		BB20A97219242CC8002EB56D /* BSAlertViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAlertViewLayout.h; sourceTree = "<group>"; };
 		BB20A97319242CC8002EB56D /* BSAlertViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAlertViewLayout.m; sourceTree = "<group>"; };
+		BB20A976192430CC002EB56D /* ASAlertViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASAlertViewLayout.h; sourceTree = "<group>"; };
+		BB20A977192430CC002EB56D /* ASAlertViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASAlertViewLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +133,8 @@
 				BB20A94519242B9D002EB56D /* Main.storyboard */,
 				BB20A94819242B9D002EB56D /* WGViewController.h */,
 				BB20A94919242B9D002EB56D /* WGViewController.m */,
+				BB20A976192430CC002EB56D /* ASAlertViewLayout.h */,
+				BB20A977192430CC002EB56D /* ASAlertViewLayout.m */,
 				BB20A97219242CC8002EB56D /* BSAlertViewLayout.h */,
 				BB20A97319242CC8002EB56D /* BSAlertViewLayout.m */,
 				BB20A94B19242B9D002EB56D /* Images.xcassets */,
@@ -281,6 +286,7 @@
 				BB20A97419242CC8002EB56D /* BSAlertViewLayout.m in Sources */,
 				BB20A96F19242BD9002EB56D /* _WGAlertManager.m in Sources */,
 				BB20A94A19242B9D002EB56D /* WGViewController.m in Sources */,
+				BB20A978192430CC002EB56D /* ASAlertViewLayout.m in Sources */,
 				BB20A97019242BD9002EB56D /* WGAlertView.m in Sources */,
 				BB20A94419242B9D002EB56D /* WGAppDelegate.m in Sources */,
 				BB20A94019242B9D002EB56D /* main.m in Sources */,

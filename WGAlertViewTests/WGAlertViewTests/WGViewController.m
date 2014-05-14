@@ -12,6 +12,7 @@
 #import "WGAlertView.h"
 
 //Custom Styles
+#import "ASAlertViewLayout.h"
 #import "BSAlertViewLayout.h"
 
 @interface WGViewController ()
@@ -46,7 +47,13 @@
         }
         break;
         case 2: {
-            WGAlertView *alert = [[WGAlertView alloc] initWithTitle:@"UIAlertView" message:@"This is apples native alert view" delegate:nil cancelButtonTitle:@"NO" otherButtonTitles:@"YES", nil];
+            WGAlertView *alert = [[WGAlertView alloc] initWithTitle:@"WGAlertView" message:@"This is an imposter" delegate:nil cancelButtonTitle:@"Can you repeat?" otherButtonTitles:@"YES", @"NO", @"I don't know", nil];
+            alert.alertViewLayout = [[ASAlertViewLayout alloc] init];
+            [alert show];
+        }
+        break;
+        case 3: {
+            WGAlertView *alert = [[WGAlertView alloc] initWithTitle:@"CustomAlerView" message:@"You can make these pretty wacky" delegate:nil cancelButtonTitle:@"Really?" otherButtonTitles:@"Oh Yeah!", nil];
             alert.alertViewLayout = [[BSAlertViewLayout alloc] init];
             [alert show];
         }
